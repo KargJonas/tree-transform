@@ -1,5 +1,5 @@
 {
-  "name": "tree-transform",
+  "name": "file-tree-transform",
   "version": "1.0.0",
   "description": "A tool for walking through file a file tree and modifying it's files.",
   "main": "index.js",
