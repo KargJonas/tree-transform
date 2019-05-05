@@ -1,0 +1,24 @@
+{
+  "name": "tree-transform",
+  "version": "1.0.0",
+  "description": "A tool to recursively transform each file in a folder with a function you provide.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "keywords": [
+    "file",
+    "tree",
+    "recursive",
+    "transform"
+  ],
+  "author": "Jonas Karg",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^6.1.4",
+    "rimraf": "^2.6.3"
+  },
+  "dependencies": {
+    "chai": "^4.2.0"
+  }
+}
