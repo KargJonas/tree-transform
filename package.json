@@ -11,6 +11,10 @@
     "recursive",
     "convert"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KargJonas/tree-transform"
+  },
   "author": "Jonas Karg",
   "license": "MIT",
   "devDependencies": {

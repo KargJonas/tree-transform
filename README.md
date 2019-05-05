@@ -1,4 +1,6 @@
 ## USAGE:
+A tool for walking through file a file tree and modifying it's files.
+
 ```js
 const transform = require("transform");
 
