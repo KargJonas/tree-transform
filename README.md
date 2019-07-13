@@ -30,13 +30,15 @@ transform(
 ```
 INPUT                                             |   OUTPUT
 --------------------------------------------------|--------------------------------------------------
-input-folder                                      |       output-folder
-  ├── bar.txt                                     |         ├── bar.txt.converted
-  ├── foo.txt                                     |         ├── foo.txt.converted
-  └── other-file                                  |         └── other-file
-      └── baz.txt                                 |             └── baz.txt.converted
+input-folder                                      |   output-folder
+  ├── bar.txt                                     |     ├── bar.txt.converted
+  ├── foo.txt                                     |     ├── foo.txt.converted
+  └── other-file                                  |     └── other-file
+      └── baz.txt                                 |         └── baz.txt.converted
                                                   |
-(inside bar.txt)                                  |   (inside bar.txt)
+--------------------------------------------------|--------------------------------------------------
+                                                  |
+(inside bar.txt)                                  |   (inside bar.txt.converted)
                                                   |
 content content content content content content   |   This file was converted!
 content content content content content content   |   content content content content content content
