@@ -8,7 +8,6 @@ const fs = require("fs");
  * @param {Function} convertFunc Function used to convert the content of each file. (convertFunc: ({fileContent, fileName}) => ({newFileContent, newFileName}))
  * @param {Boolean} stringInput Defines if input-files should be converted to string.
 */
-
 function transform(inDir, outDir, convertFunc, stringInput = true) {
   // Throwing an exception if the input folder does not exist.
   if (!fs.existsSync(inDir) || !fs.lstatSync(inDir).isDirectory()) {
