@@ -1,14 +1,10 @@
 const transform = require("../index");
 
-const inputFolder = "input-folder";
-const outputFolder = "output-folder";
-const convertInputToString = true;
-
 function convertFileFunc({
   input,  // Content of the original file
   name    // Filename of the original file
 }) {
-  const newContent = `This is a modified file.\n${input}`;
+  const newContent = `This file was converted!\n${input}`;
   const newName = `${name}.converted`;
 
   return {
@@ -18,8 +14,8 @@ function convertFileFunc({
 }
 
 transform(
-  inputFolder,
-  outputFolder,
-  convertFileFunc,
-  convertInputToString // optional - default: true
+  "input-folder",   // Input folder
+  "output-folder",  // Output folder
+  convertFileFunc,  // Your converter function
+  true              // Convert file content to string (optional - default: true)
 );
